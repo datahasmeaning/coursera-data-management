@@ -1,10 +1,11 @@
 Addhealth - Number of observations: 4428
 Addhealth - Number of variables: 2829
-
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: How close do you feel to your {MOTHER/ADOPTIVE MOTHER/ STEPMOTHER/ FOSTERMOTHER/etc.}?
 A: 1=Not at all, 2=Very little, 3=somewhat, 4=quit a bit, 5=very much, 6=refused, 7=skip-no mom, 8=don't know
 Frequency in numbers:
+---------------------
 4     907
 8       3
 1      19
@@ -14,8 +15,8 @@ Frequency in numbers:
 3     374
 7     273
 Name: H1WP9, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.204833
 8   0.000678
 1   0.004291
@@ -26,11 +27,34 @@ Frequency in percentile:
 7   0.061653
 Name: H1WP9, dtype: float64
 ***********************************************
-
+AFTER CLEANING THE DATA
+***********************************************
+Q: How close do you feel to your {MOTHER/ADOPTIVE MOTHER/ STEPMOTHER/ FOSTERMOTHER/etc.}?
+A: 1=Not at all, 2=Very little, 3=somewhat, 4=quit a bit, 5=very much, 6=refused, 7=skip-no mom, 8=don't know
+Frequency in numbers:
+---------------------
+5.000000    2730
+4.000000     907
+3.000000     374
+2.000000     121
+1.000000      19
+Name: H1WP9, dtype: int64
+Frequency in percentile:
+------------------------
+5.000000   0.657673
+4.000000   0.218502
+3.000000   0.090099
+2.000000   0.029150
+1.000000   0.004577
+Name: H1WP9, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: How close do you feel to your {FATHER/ADOPTIVE FATHER/STEPFATHER/FOSTERFATHER/etc.}?
 A: 1=Not at all, 2=Very little, 3=somewhat, 4=quit a bit, 5=very much, 6=refused, 7=skip-no dad, 8=don't know
 Frequency in numbers:
+---------------------
 4     864
 8       1
 1      59
@@ -40,8 +64,8 @@ Frequency in numbers:
 3     481
 7    1349
 Name: H1WP13, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.195122
 8   0.000226
 1   0.013324
@@ -52,12 +76,35 @@ Frequency in percentile:
 7   0.304652
 Name: H1WP13, dtype: float64
 ***********************************************
-
+AFTER CLEANING THE DATA
+***********************************************
+Q: How close do you feel to your {FATHER/ADOPTIVE FATHER/STEPFATHER/FOSTERFATHER/etc.}?
+A: 1=Not at all, 2=Very little, 3=somewhat, 4=quit a bit, 5=very much, 6=refused, 7=skip-no dad, 8=don't know
+Frequency in numbers:
+---------------------
+4.000000     864
+5.000000    1529
+3.000000     481
+2.000000     142
+1.000000      59
+Name: H1WP13, dtype: int64
+Frequency in percentile:
+------------------------
+4.000000   0.280976
+5.000000   0.497236
+3.000000   0.156423
+2.000000   0.046179
+1.000000   0.019187
+Name: H1WP13, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: Most of the time, your mother is warm and loving toward you.
 A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
 Frequency in numbers:
+---------------------
 4     144
 8       9
 1    2008
@@ -67,8 +114,8 @@ Frequency in numbers:
 3     242
 7     273
 Name: H1PF1, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.032520
 8   0.002033
 1   0.453478
@@ -79,12 +126,36 @@ Frequency in percentile:
 7   0.061653
 Name: H1PF1, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: Most of the time, your mother is warm and loving toward you.
+A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
+Frequency in numbers:
+---------------------
+1.000000    2008
+2.000000    1715
+3.000000     242
+4.000000     144
+5.000000      33
+Name: H1PF1, dtype: int64
+Frequency in percentile:
+------------------------
+1.000000   0.484790
+2.000000   0.414051
+3.000000   0.058426
+4.000000   0.034766
+5.000000   0.007967
+Name: H1PF1, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: Your mother encourages you to be independent.
 A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
 Frequency in numbers:
+---------------------
 4     187
 8      11
 1    1722
@@ -94,8 +165,8 @@ Frequency in numbers:
 3     441
 7     273
 Name: H1PF2, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.042231
 8   0.002484
 1   0.388889
@@ -106,12 +177,36 @@ Frequency in percentile:
 7   0.061653
 Name: H1PF2, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: Your mother encourages you to be independent.
+A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
+Frequency in numbers:
+---------------------
+1.000000    1722
+2.000000    1749
+3.000000     441
+4.000000     187
+5.000000      43
+Name: H1PF2, dtype: int64
+Frequency in percentile:
+------------------------
+1.000000   0.415741
+2.000000   0.422260
+3.000000   0.106470
+4.000000   0.045147
+5.000000   0.010381
+Name: H1PF2, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: When you do something wrong that is important, your mother talks about it with you and helps you understand why it is wrong.
 A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
 Frequency in numbers:
+---------------------
 4     272
 8       8
 1    1388
@@ -121,8 +216,8 @@ Frequency in numbers:
 3     468
 7     273
 Name: H1PF3, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.061427
 8   0.001807
 1   0.313460
@@ -133,12 +228,36 @@ Frequency in percentile:
 7   0.061653
 Name: H1PF3, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: When you do something wrong that is important, your mother talks about it with you and helps you understand why it is wrong.
+A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
+Frequency in numbers:
+---------------------
+1.000000    1388
+2.000000    1953
+3.000000     468
+4.000000     272
+5.000000      61
+Name: H1PF3, dtype: int64
+Frequency in percentile:
+------------------------
+1.000000   0.335104
+2.000000   0.471511
+3.000000   0.112989
+4.000000   0.065669
+5.000000   0.014727
+Name: H1PF3, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: You are satisfied with the way your mother and you communicate  with each other.
 A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
 Frequency in numbers:
+---------------------
 4     393
 8       5
 1    1474
@@ -148,8 +267,8 @@ Frequency in numbers:
 3     417
 7     273
 Name: H1PF4, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.088753
 8   0.001129
 1   0.332882
@@ -160,12 +279,36 @@ Frequency in percentile:
 7   0.061653
 Name: H1PF4, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: You are satisfied with the way your mother and you communicate  with each other.
+A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
+Frequency in numbers:
+---------------------
+1.000000    1474
+2.000000    1747
+3.000000     417
+4.000000     393
+5.000000     116
+Name: H1PF4, dtype: int64
+Frequency in percentile:
+------------------------
+1.000000   0.355438
+2.000000   0.421268
+3.000000   0.100555
+4.000000   0.094767
+5.000000   0.027972
+Name: H1PF4, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: Overall, you are satisfied with your relationship with your mother.
 A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
 Frequency in numbers:
+---------------------
 4     220
 8       7
 1    1867
@@ -175,8 +318,8 @@ Frequency in numbers:
 3     264
 7     273
 Name: H1PF5, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.049684
 8   0.001581
 1   0.421635
@@ -187,12 +330,36 @@ Frequency in percentile:
 7   0.061653
 Name: H1PF5, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: Overall, you are satisfied with your relationship with your mother.
+A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no mom, 8=don't know 
 
+Frequency in numbers:
+---------------------
+1.000000    1867
+2.000000    1722
+3.000000     264
+4.000000     220
+5.000000      71
+Name: H1PF5, dtype: int64
+Frequency in percentile:
+------------------------
+1.000000   0.450531
+2.000000   0.415541
+3.000000   0.063707
+4.000000   0.053089
+5.000000   0.017133
+Name: H1PF5, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: Most of the time, your father is warm and loving toward you.
 A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no dad, 8=don't know 
 
 Frequency in numbers:
+---------------------
 4     173
 8       1
 1    1119
@@ -203,8 +370,8 @@ Frequency in numbers:
 3     365
 7    1349
 Name: H1PF23, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.039070
 8   0.000226
 1   0.252710
@@ -216,12 +383,38 @@ Frequency in percentile:
 7   0.304652
 Name: H1PF23, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: Most of the time, your father is warm and loving toward you.
+A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no dad, 8=don't know 
 
+Frequency in numbers:
+---------------------
+2.000000    1342
+1.000000    1119
+4.000000     173
+3.000000     365
+5.000000      71
+9.000000       1
+Name: H1PF23, dtype: int64
+Frequency in percentile:
+------------------------
+2.000000   0.436991
+1.000000   0.364376
+4.000000   0.056333
+3.000000   0.118854
+5.000000   0.023120
+9.000000   0.000326
+Name: H1PF23, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: You are satisfied with the way your father and you communicate.
 A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no dad, 8=don't know 
 
 Frequency in numbers:
+---------------------
 4     344
 8       2
 1     919
@@ -232,8 +425,8 @@ Frequency in numbers:
 3     386
 7    1349
 Name: H1PF24, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.077687
 8   0.000452
 1   0.207543
@@ -245,12 +438,38 @@ Frequency in percentile:
 7   0.304652
 Name: H1PF24, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: You are satisfied with the way your father and you communicate.
+A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no dad, 8=don't know 
 
+Frequency in numbers:
+---------------------
+4.000000     344
+1.000000     919
+2.000000    1306
+3.000000     386
+5.000000     114
+9.000000       1
+Name: H1PF24, dtype: int64
+Frequency in percentile:
+------------------------
+4.000000   0.112052
+1.000000   0.299349
+2.000000   0.425407
+3.000000   0.125733
+5.000000   0.037134
+9.000000   0.000326
+Name: H1PF24, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: Overall, you are satisfied with your relationship with your father.
 A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no dad, 8=don't know 
 
 Frequency in numbers:
+---------------------
 4     251
 8       2
 1    1093
@@ -261,8 +480,8 @@ Frequency in numbers:
 3     290
 7    1349
 Name: H1PF25, dtype: int64
-
 Frequency in percentile:
+------------------------
 4   0.056685
 8   0.000452
 1   0.246838
@@ -274,27 +493,48 @@ Frequency in percentile:
 7   0.304652
 Name: H1PF25, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: Overall, you are satisfied with your relationship with your father.
+A: 1=Strongly Agree, 2=agree, 3=neither agree nor disagree,  4=disagree, 5=strongly disagree, 6=refused, 7=skip-no mom, 8=don't know7=skip-no dad, 8=don't know 
 
-
-
--------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------
+Frequency in numbers:
+---------------------
+2.000000    1357
+1.000000    1093
+3.000000     290
+4.000000     251
+5.000000      77
+9.000000       1
+Name: H1PF25, dtype: int64
+Frequency in percentile:
+------------------------
+2.000000   0.442164
+1.000000   0.356142
+3.000000   0.094493
+4.000000   0.081786
+5.000000   0.025090
+9.000000   0.000326
+Name: H1PF25, dtype: float64
+***********************************************
+__________________________________________________
 SECTION: IDEAL RELATIONSHIP EXPECTATIONS
 What do you think will happen in an ideal relationship?
-
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: I would meet my partner’s parents.
 A: 1=card kept, 2=card rejected, 6=refused, 8=don't know, 9=not applicable 
 
 Frequency in numbers:
+---------------------
 8      41
 1    3987
 9       2
 2     369
 6      29
 Name: H1ID1B, dtype: int64
-
 Frequency in percentile:
+------------------------
 8   0.009259
 1   0.900407
 9   0.000452
@@ -302,20 +542,38 @@ Frequency in percentile:
 6   0.006549
 Name: H1ID1B, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: I would meet my partner’s parents.
+A: 1=card kept, 2=card rejected, 6=refused, 8=don't know, 9=not applicable 
 
+Frequency in numbers:
+---------------------
+1.000000    3987
+2.000000     369
+Name: H1ID1B, dtype: int64
+Frequency in percentile:
+------------------------
+1.000000   0.915289
+2.000000   0.084711
+Name: H1ID1B, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: I would tell my partner that I loved him or her.
 A: 1=card kept, 2=card rejected, 6=refused, 8=don't know, 9=not applicable 
 
 Frequency in numbers:
+---------------------
 8      41
 1    3878
 9       2
 2     478
 6      29
 Name: H1ID1I, dtype: int64
-
 Frequency in percentile:
+------------------------
 8   0.009259
 1   0.875790
 9   0.000452
@@ -323,20 +581,38 @@ Frequency in percentile:
 6   0.006549
 Name: H1ID1I, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: I would tell my partner that I loved him or her.
+A: 1=card kept, 2=card rejected, 6=refused, 8=don't know, 9=not applicable 
 
+Frequency in numbers:
+---------------------
+1.000000    3878
+2.000000     478
+Name: H1ID1I, dtype: int64
+Frequency in percentile:
+------------------------
+1.000000   0.890266
+2.000000   0.109734
+Name: H1ID1I, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: My partner would tell me that he or she loved me.
 A: 1=card kept, 2=card rejected, 6=refused, 8=don't know, 9=not applicable 
 
 Frequency in numbers:
+---------------------
 8      41
 1    3996
 9       2
 2     360
 6      29
 Name: H1ID1J, dtype: int64
-
 Frequency in percentile:
+------------------------
 8   0.009259
 1   0.902439
 9   0.000452
@@ -344,24 +620,78 @@ Frequency in percentile:
 6   0.006549
 Name: H1ID1J, dtype: float64
 ***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: My partner would tell me that he or she loved me.
+A: 1=card kept, 2=card rejected, 6=refused, 8=don't know, 9=not applicable 
 
+Frequency in numbers:
+---------------------
+1.000000    3996
+2.000000     360
+Name: H1ID1J, dtype: int64
+Frequency in percentile:
+------------------------
+1.000000   0.917355
+2.000000   0.082645
+Name: H1ID1J, dtype: float64
+***********************************************
+__________________________________________________
+BEFORE CLEANING THE DATA
 ***********************************************
 Q: We would get married.
 A: 1=card kept, 2=card rejected, 6=refused, 8=don't know, 9=not applicable 
 
 Frequency in numbers:
+---------------------
 8      41
 1    1118
 9       2
 2    3238
 6      29
 Name: H1ID1Q, dtype: int64
-
 Frequency in percentile:
+------------------------
 8   0.009259
 1   0.252484
 9   0.000452
 2   0.731256
 6   0.006549
 Name: H1ID1Q, dtype: float64
+***********************************************
+AFTER CLEANING THE DATA
+***********************************************
+Q: We would get married.
+A: 1=card kept, 2=card rejected, 6=refused, 8=don't know, 9=not applicable 
+
+Frequency in numbers:
+---------------------
+2.000000    3238
+1.000000    1118
+Name: H1ID1Q, dtype: int64
+Frequency in percentile:
+------------------------
+2.000000   0.743343
+1.000000   0.256657
+Name: H1ID1Q, dtype: float64
+***********************************************
+__________________________________________________
+***********************************************
+Average of all the values related to the questions of the subjects and his/her parent(s)
+Frequency in numbers:
+---------------------
+2.000000    1630
+1.000000     863
+3.000000     321
+4.000000      70
+5.000000       3
+Name: PARENT_RELATION, dtype: int64
+Frequency in percentile:
+------------------------
+2.000000   0.564600
+1.000000   0.298926
+3.000000   0.111188
+4.000000   0.024247
+5.000000   0.001039
+Name: PARENT_RELATION, dtype: float64
 ***********************************************
